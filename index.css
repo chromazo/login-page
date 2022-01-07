@@ -1,0 +1,64 @@
+@import url('https://fonts.googleapis.com/css2?family=Abhaya+Libre:wght@700&family=Nunito:wght@300&display=swap');
+* {
+  margin: 0px;
+  padding: 0px;
+}
+body {
+  background: url(monument.jpg) no-repeat center center fixed;
+  background-size: cover;
+}
+
+.container {
+  color: white;
+  position: absolute;
+  top: 30%;
+  left: 6%;
+  width: 25%;
+}
+.container h1 {
+  display: inline-block;
+  font-family: 'Abhaya Libre', serif;
+  font-size: 80px;
+  border-bottom: solid #F4DFBA 5px;
+  margin-bottom: 25px;
+}
+.box {
+  width: 100%;
+  border-bottom: solid #F4DFBA 2px;
+  margin: 20px 0px 10px;
+}
+.box input {
+  background: none;
+  width: 75%;
+  color: #F4DFBA;
+  font-size: 25px;
+  font-family: 'Nunito', sans-serif;
+  border: none;
+  outline: none;
+  padding: 8px 12px;
+}
+.box i {
+  width: 30px;
+  padding: 0px 10px;
+  text-align: center;
+}
+#btn {
+  border-radius: 10px;
+  border: solid #F4DFBA 2px;
+  background: none;
+  color: white;
+  cursor: pointer;
+  font-family: 'Nunito', sans-serif;
+  font-size: 20px;
+  font-weight: bold;
+  margin: 20px 10px;
+  padding: 10px 15px;
+  outline: none;
+}
+#btn:hover {
+  border-radius: 10px;
+  border: solid #876445 2px;
+  background-color: white;
+  color: #876445;
+  
+}
